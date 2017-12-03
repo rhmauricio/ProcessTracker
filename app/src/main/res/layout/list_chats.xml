@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:layout_marginTop="10dp"
+    android:background="@color/md_white_1000">
+
+    <ImageView
+        android:id="@+id/list_time"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:src="@drawable/ic_account_circle_black_24dp"
+        android:tint="@color/colorPrimary"
+        android:layout_margin="16dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+
+    <RelativeLayout
+        android:id="@+id/relative_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_toEndOf="@id/list_time"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true">
+
+        <LinearLayout
+            android:id="@+id/container"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true">
+
+            <TextView
+                android:id="@+id/list_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:paddingRight="16dp"
+                android:layout_marginBottom="2dp"
+                android:text="Name"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
+                android:textSize="13sp"/>
+            <TextView
+                android:id="@+id/list_detail"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/md_grey_500"
+                android:paddingRight="16dp"
+                android:hint="Ultimo Mensaje"
+                android:fontFamily="sans-serif"
+                android:textSize="13sp"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/list_action"
+            android:layout_width="50dp"
+            android:layout_height="20dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:tint="@color/colorPrimary"
+            android:hint="10:20"
+            android:textSize="13sp"
+            android:textColor="@color/md_grey_500"
+            />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/divider_line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginEnd="8dp"
+        android:layout_alignBottom="@id/relative_layout"
+        android:background="?android:attr/dividerVertical"
+        android:layout_marginBottom="1dp"
+        xmlns:android="http://schemas.android.com/apk/res/android"/>
+
+
+</RelativeLayout>

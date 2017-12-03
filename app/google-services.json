@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "748623827353",
+    "firebase_url": "https://process-tracker.firebaseio.com",
+    "project_id": "process-tracker",
+    "storage_bucket": "process-tracker.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:748623827353:android:4db99e8a1290ef01",
+        "android_client_info": {
+          "package_name": "rhmauricio.processtracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "748623827353-vh2msfb5bednci04lkismirgf49dtrri.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "rhmauricio.processtracker",
+            "certificate_hash": "169536e3065911b193d23908a41db86c0908f75b"
+          }
+        },
+        {
+          "client_id": "748623827353-ona84odc39f1nnppn8mbuqjb0m6fp1at.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgzfhldWcqGj1Jb6UwYawDquyMxSkP_N8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "748623827353-ona84odc39f1nnppn8mbuqjb0m6fp1at.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
